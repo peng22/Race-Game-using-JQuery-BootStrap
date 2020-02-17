@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Race</title>
+    <!-- cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- local -->
+    <link href="css/bootstrap.css" rel="stylesheet" /> </head>
+    <link href="css/bootstrap-grid.css" rel="stylesheet" /> </head>
+    <link href="css/bootstrap-reboot.css" rel="stylesheet" /> </head>
+    <link href="game.css" rel="stylesheet" /> </head>
+
+<body>
+
+    <div class="container">
+
+      <div class="row">
+           <div class=" Control col-sm-12 col-lg-3 align-content-center">
+
+          </div>
+          <div class="col-sm-12 col-lg-6 bg-dark">
+            <div class="row justify-content-center ">
+              <div id="score_div">
+                Score: <span id="score">0</span>
+                High Score: <span id="high_score">0</span>
+              </div>
+            </div>
+            <div class="row  ">
+              <div id="track">
+                <div id="line_1" class="line"></div>
+                <div id="line_2" class="line"></div>
+                <div id="line_3" class="line"></div>
+                <div id="car" class="car">
+                  <img src="images/main.png" alt="" width="40px" height="60px"/>
+                </div>
+                <div id="car_1" class="car">
+                  <img src="images/opponent1.png" alt=""width="40px" height="60px" />
+                </div>
+                <div id="car_2" class="car">
+                  <img src="images/opponent2.WEBP" alt=""width="40px" height="60px" />
+                </div>
+                <div id="car_3" class="car">
+                  <img src="images/opponent3.png" alt=""width="40px" height="60px" />
+                </div>
+                <div id="start_div">
+                    <button id="start">
+                        Start<br>
+                      <small class="small_text">(press Enter)</small>
+                    </button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-3 align-content-center">
+            <audio  controls autoplay="autoplay"loop="true"class="soundTrack">
+              <source src="sound.ogg" type="audio/ogg" >
+              <source src="sound.mp3" type="audio/mpeg" >
+              Your browser does not support the audio element.
+           </audio>
+         </div>
+
+      </div>
+
+    </div>
+
+    <script src="jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="game.js"></script>
+</body>
+
+</html>

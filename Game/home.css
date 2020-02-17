@@ -1,0 +1,27 @@
+.card{
+    display: inline-block;
+}
+.container{
+    max-width: 75%;
+    margin-left: 25%;
+}
+body{
+    background-image: url(images/homebackground.jpg);
+        text-align: center;
+}
+.text{
+    font-family: monospace;
+    color: #A4CEDC;
+    font-size: 15pt;
+}
+
+#start{
+    margin-top: 5%;
+    margin-left: 5%;
+    min-width: 50%;
+    display: inline-block;
+
+}
+#carouselExampleInterval{
+    max-width: 60%;
+}
